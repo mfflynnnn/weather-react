@@ -1,38 +1,142 @@
-.App {
+body {
   text-align: center;
+  background: #6ea9dc;
+  color: white;
+  font-family: "Roboto", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  margin: 40px auto 0;
+  font-size: 40px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h2 {
+  margin-bottom: 30px;
+  font-size: 18px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+h3 {
+  padding: 0 0 20px 0;
+  color: white;
+  margin: 0 auto;
+}
+ul {
+  list-style-type: none;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: #6ea9dc;
+}
+a:visited {
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+button {
+  display: block;
+  width: 105px;
+  margin: 0 0 15px 0;
+  background: #6ea9dc;
+  border: 1px solid #6ea9dc;
+  border-radius: 15px;
+  color: white;
+  font-size: 20px;
+  transition: all 180ms ease-in-out;
+  box-shadow: 3px 3px 2px 1px rgba(44, 76, 104, 0.2);
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button:hover {
+  background: white;
+  border: 1px solid white;
+  color: #6ea9dc;
+}
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+.header {
+  position: relative;
+}
+.form-control {
+  display: block;
+  margin: 0 auto;
+  width: 500px;
+}
+.card {
+  display: block;
+  margin: 20px auto;
+  padding: 0 30px;
+  width: 700px;
+  height: 300px;
+  background: white;
+  border: 3px solid #6ea9dc;
+  border-radius: 15px;
+  color: #6ea9dc;
+}
+.left-panel {
+  margin-top: 20px;
+  padding: 0 0 0 33px;
+}
+.weather-description {
+  text-transform: capitalize;
+}
+.granular-info {
+  font-size: 12px;
+}
+.city-info {
+  font-size: 30px;
+}
+.right-panel {
+  text-align: right;
+  padding-right: 58px;
+}
+.main-emoji {
+  vertical-align: top;
+  padding-top: 20px;
+  font-size: 95px;
+}
+.main-temp {
+  font-size: 105px;
+}
+.degree-symbol {
+  font-size: 105px;
+}
+.temp-type {
+  display: inline-flex;
+  text-align: left;
+  font-size: 25px;
+  vertical-align: top;
+  margin-top: 30px;
+}
+.temp-type a {
+  text-decoration: none;
+}
+.fahr:hover,
+.cel:hover {
+  text-decoration: underline;
+}
+.fahr:visited,
+.cel:visited {
+  color: #6ea9dc;
+}
+.cel {
+  padding-right: 15px;
+}
+.weekdays {
+  margin: 15px 8px;
+}
+.day-of-week {
+  font-size: 15px;
+}
+.weekday-icon {
+  max-width: 60px;
+}
+.forecast-temps {
+  font-size: 13px;
+  margin: 0 auto 20px auto;
+}
+.footer {
+  position: relative;
+  padding: 20px;
+  text-align: center;
 }
