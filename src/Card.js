@@ -12,6 +12,7 @@ export default function Card() {
           <li className="granular-info">
             <span>Humidity: </span>
             <span className="humidity"></span>
+            <br />
             <span>Wind: </span>
             <span className="wind"></span>
           </li>

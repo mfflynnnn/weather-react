@@ -8,8 +8,8 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <Video />
       <div className="container">
+        <Video />
         <Header />
         <Card />
         <Footer />
