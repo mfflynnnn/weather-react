@@ -18,7 +18,7 @@ export default function Card() {
           </li>
         </ul>
         <div className="col-8 right-panel">
-          <img className="main-emoji" alt="" />
+          <img className="main-icon" alt="" />
           <span className="main-temp" />
           <span className="degree-symbol">°</span>
           <div className="temp-type">
